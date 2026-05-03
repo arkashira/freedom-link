@@ -1,3 +1,5 @@
 # freedom-link axentx product
 · A stealth VPN solution that hides SOCKS5 proxy ports and TUN interfaces from detection, allowing Russian users to bypass censorship without being blocked.
-The user interface is easy to use and navigate, providing clear instructions and feedback to the user. The interface is compatible with multiple Android versions.
+
+## Security
+The freedom-link VPN uses AES-256-CBC encryption to secure all data transmitted through the VPN. No user data is stored on the server.
