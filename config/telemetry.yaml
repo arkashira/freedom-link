@@ -1,0 +1,17 @@
+# Telemetry configuration for freedom-link
+# Controls whether undetectability metrics are emitted.
+enabled: true
+
+# Internal flag to avoid repeatedly showing privacy notice
+privacy_notice_shown: false
+
+# Local telemetry endpoint (Unix socket or localhost HTTP)
+endpoint: "http://127.0.0.1:9090/telemetry"
+
+# Session-level metadata to include (if enabled)
+include:
+  - session_id
+  - container_id
+  - undetected
+  - start_time
+  - stop_time
